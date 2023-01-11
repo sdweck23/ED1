@@ -20,7 +20,7 @@ function draw() {//runs in a loop
   //   300,0,
   //   300,300,
   //   0,300);
-  var num = 50 //number of side in the array
+  var num = 50; //number of side in the array
   var sideLen = windowWidth/num; //side length variable
 
   translate (-150,-150);
@@ -31,9 +31,10 @@ function draw() {//runs in a loop
     }
   }
 
-  function windoResized(){//allow window refresh with window resizing
-    resizeCanvas(windowWidth, windowHeight);
-  }
 
 
+}
+
+function windoResized(){//allow window refresh with window resizing
+  resizeCanvas(windowWidth, windowHeight);
 }
