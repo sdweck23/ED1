@@ -14,7 +14,7 @@ function setup() {//runs once
 
 function draw() {//runs in a loop
   strokeWeight(1);//assigns stroke weight
-  background('blue');
+
   // quad(
   //   0,0,
   //   300,0,
@@ -27,6 +27,7 @@ function draw() {//runs in a loop
 
   for(var y=0; y< 2*windowWidth; y = y + sideLen){
     for (var x = 0; x< 2*windowWidth; x = x + sideLen){
+      background('blue');
       image(gif, x, y, windowWidth/num, windowWidth/num); //img for image
     }
   }
