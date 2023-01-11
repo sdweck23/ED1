@@ -20,20 +20,19 @@ function draw() {//runs in a loop
   //   300,0,
   //   300,300,
   //   0,300);
-  var num = 50 //number of side in the array
+  var num = 50; //number of side in the array
   var sideLen = windowWidth/num; //side length variable
 
   translate (-150,-150);
 
-  for(var y=0; y<2 *windowWidth; y = y + sideLen){
+  for(var y=0; y< 2*windowWidth; y = y + sideLen){
     for (var x = 0; x< 2*windowWidth; x = x + sideLen){
       image(gif, x, y, windowWidth/num, windowWidth/num); //img for image
     }
   }
 
-  function windoResized(){//allow window refresh with window resizing
-    resizeCanvas(windowWidth, windowHeight);
-  }
+}
 
-
+function windoResized(){//allow window refresh with window resizing
+  resizeCanvas(windowWidth, windowHeight);
 }
