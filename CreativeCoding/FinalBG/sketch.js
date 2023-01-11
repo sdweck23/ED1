@@ -35,6 +35,6 @@ function draw() {//runs in a loop
 
 }
 
-function windoResized(){//allow window refresh with window resizing
+function windowResized(){//allow window refresh with window resizing
   resizeCanvas(windowWidth, windowHeight);
 }

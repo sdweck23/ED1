@@ -13,8 +13,8 @@ function setup() {//runs once
 }
 
 function draw() {//runs in a loop
-  fill("pink");//fills in the shape
   strokeWeight(1);//assigns stroke weight
+  background('blue');
   // quad(
   //   0,0,
   //   300,0,
@@ -33,6 +33,6 @@ function draw() {//runs in a loop
 
 }
 
-function windoResized(){//allow window refresh with window resizing
+function windowResized(){//allow window refresh with window resizing
   resizeCanvas(windowWidth, windowHeight);
 }
