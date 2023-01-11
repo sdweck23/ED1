@@ -25,7 +25,7 @@ function draw() {//runs in a loop
 
   translate (-150,-150);
   background('DeepSkyBlue');
-  
+
   for(var y=0; y< 2*windowWidth; y = y + sideLen){
     for (var x = 0; x< 2*windowWidth; x = x + sideLen){
 
@@ -35,6 +35,7 @@ function draw() {//runs in a loop
   }
 
 }
+
 
 function windowResized(){//allow window refresh with window resizing
   resizeCanvas(windowWidth, windowHeight);
