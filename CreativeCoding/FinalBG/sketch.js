@@ -24,12 +24,12 @@ function draw() {//runs in a loop
   var sideLen = windowWidth/num; //side length variable
 
   translate (-150,-150);
-
+  background('DeepSkyBlue');
   for(var y=0; y< 2*windowWidth; y = y + sideLen){
     for (var x = 0; x< 2*windowWidth; x = x + sideLen){
 
       image(gif, x, y, windowWidth/num, windowWidth/num); //img for image
-      background('blue');
+
     }
   }
 
